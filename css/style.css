@@ -1,0 +1,157 @@
+/* Box Model Hack */
+*,
+*::after,
+*::before{
+
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+header,footer {
+    clear: both;
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    font-family: var(--font-Body);
+    transition: .3s;
+}
+html{
+    scroll-behavior: smooth;
+   
+}
+
+/*********PROPERTIES AND COLORS FOR LAYOUT***********/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+:root{
+    --color-black:black;
+    --color-Nobel:#B5B5B5;
+    --color-Athensgray:#B5B5B5;
+    --color-jumbo:#808084;
+    --color-Lynch:#5D7288;
+    --font-Body:font-family: 'Montserrat', sans-serif;
+}
+header{
+    height:100px;
+    width:100%;
+    background:black;
+}
+header img{
+    height:100px;
+    margin-left: 650px;;
+
+}
+main{
+    height:800px;
+    width:100%;
+
+}
+main img{
+    height:800px;
+    width:100%;
+}
+ p{
+    margin-top: 50px;
+}
+.questions{
+    border:3px solid blue;
+    height:800px;
+    
+  
+    width:100%;
+   
+  
+    text-align: center;
+    letter-spacing: 2px;
+}
+.title{
+    font-family: 'Great Vibes', cursive;
+    color:burlywood;
+}
+
+.sec-center{
+ 
+ margin-top: -30px;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;;
+    height:100px;
+}
+.plus-icon,.minus-icon{
+  
+
+}
+.plus-icon img{
+    height:30px;
+    width:30px;
+   
+}
+.minus-icon img{
+    height:30px;
+    width:30px;
+}
+button{
+    border: none;
+    width: 100px;
+    margin-left: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.question-btn{
+    font-size: 1.5rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    color:gold;
+    transition:2s;
+}
+.question-btn:hover{
+    transform: rotate(90deg);
+}
+.question-text{
+    
+        padding: 1rem 0 1.5rem 0;
+        border-top: 1px soild black;
+         border: 3px solid red;
+}
+.question-text 
+{
+   display: none;
+    text-align: center;
+    margin: 60px;
+
+}
+.question-text p{
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    color: var(--color-jumbo);
+}
+
+/* hide text */
+.show-text .question-text{
+    display: block;
+}
+.minus-icon{
+    display: none;
+}
+.show-text .minus-icon{
+    display: inline;
+}
+.show-text .plus-icons{
+    display: none;
+}
