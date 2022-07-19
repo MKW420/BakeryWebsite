@@ -1,5 +1,5 @@
 # Bakery Website 
-This is a **front-end** project for a bakery website.
+This is a **Front-End** project for a bakery website.
 
 ## Programming Languages used:
 **Tech Used:** HTML , CSS , Vanilla javascript.
