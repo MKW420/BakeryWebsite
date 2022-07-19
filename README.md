@@ -1,1 +1,6 @@
-# BakeryWebsite![chelsea-audibert-hV1gChgMa-k-unsplash](https://user-images.githubusercontent.com/61581315/179797297-60eb9471-0675-425b-ad86-d835ec13a901.jpg)
+# BakeryWebsite
+
+![xtrab](https://user-images.githubusercontent.com/61581315/179797797-e65a9b18-461a-4f8a-a7a1-0696299f6430.PNG)
+![xtrab1](https://user-images.githubusercontent.com/61581315/179797817-40180f45-b909-47f9-97f7-19b246126b5b.PNG)
+![xtrab2](https://user-images.githubusercontent.com/61581315/179797827-103f3c73-8be6-4543-85c2-328d54615409.PNG)
+![extrab4](https://user-images.githubusercontent.com/61581315/179797929-8a576a74-b965-490e-a9e1-727ae4a3a82b.PNG)
