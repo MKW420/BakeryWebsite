@@ -96,7 +96,7 @@ nav img{
    display: none;
 }
 main{
-    height:1200px;
+    height:500px;
     display: flex;
     flex-direction: column;
     width:100%;
@@ -106,7 +106,7 @@ main{
     align-items: center;
     color: var(--color-olive);
  
-   background-image: url('../img/llio-angharad-AKxNTx-QGhw-unsplash.jpg');
+   background-image: url('../img/conor-brown-sqkXyyj4WdE-unsplash.jpg');
    background-repeat: no-repeat; 
    background-size: cover; 
    
@@ -271,9 +271,10 @@ h1{
     margin-top: 10px;
     margin-right: 50px;
 }
+
 .questions{
     /* border:3px solid blue; */
-    height:600px;
+    height:900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -288,11 +289,11 @@ h1{
 .title{
     font-family: 'Great Vibes', cursive;
     color:var(--color-olive);
-    margin-top: -80px;
+    margin-top: -50px;
     font-size: larger;
 }
 .question-title {
-    margin-top:-30px ;
+    margin-top:-80px ;
 }
 main span{
     font-family: 'Great Vibes', cursive;
@@ -313,6 +314,7 @@ main span{
   
 
 }
+
 .plus-icon img{
     display: flex;
     justify-content: center;
@@ -356,8 +358,11 @@ main span{
    display: none;
     text-align: center;
     margin: 20px;
+    margin-left: 0px;
     border-top:1px solid grey;
+    background-color: #EEE8E4;
     border-radius: 10px;
+    width:100%;
 }
 .question-text p{
     margin-bottom: 0;
@@ -418,6 +423,18 @@ footer img{
 .info span{
     margin-top: 10px;
 }
+.question-text{
+    transform: translateY(-20%);
+    position:relative;
+       
+       transition: transform 0.2s;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       z-index: 99;
+       height: 100px;
+}
 /* hide text */
 .show-text .question-text{
     display: block;
@@ -432,5 +449,19 @@ footer img{
 .show-text .plus-icon{
     display: none;
 }
+.show-text{
+    transform: translateY(0);
+}
+.sec-imgs{
+width:100%;
+height:200px;
+display: flex;
+flex-direction: row;
 
+}
+.sec-imgs img{
+    width:20%;
+    height:200px; 
+
+}
 

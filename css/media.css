@@ -1,5 +1,7 @@
 @media only screen and (max-width:560px){
-
+    .sec-imgs{
+        display: none;
+    }
     .nav-center{
         height:100px;
         width:100%;
@@ -113,8 +115,8 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        color: var(--color-light-olive);
-        background-image: url('../img/llio-angharad-AKxNTx-QGhw-unsplash.jpg');
+        color: var(--color-olive);
+        background-image: url('../img/conor-brown-sqkXyyj4WdE-unsplash.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         font-weight: lighter;
@@ -125,10 +127,10 @@
         background-color: var(--color-olive);
         color:var(--color-light-olive);
         font-weight: bolder;
-        margin-top: 150px;
+        margin-top: 40px;
     }
     main h1{
-        margin-top: 80px;
+        margin-top: 150px;
         font-size: 200%;
         text-decoration: none;
     }
@@ -350,7 +352,7 @@
         width: 100%;
     }
     main{
-        height:900px;
+        height:500px;
         display: flex;
         flex-direction: column;
         width:100%;
@@ -358,14 +360,14 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        color: var(--color-light-olive);
-        background-image: url('../img/llio-angharad-AKxNTx-QGhw-unsplash.jpg');
+        color: var(--color-olive);
+        background-image: url('../img/conor-brown-sqkXyyj4WdE-unsplash.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         font-weight: lighter;
     }
     main h1{
-        margin-top: -250px;
+        margin-top: 120px;
        
     }
     main span{
@@ -556,7 +558,7 @@
    
 } 
 
-@media only screen and (min-width:901px) and (max-width:1500px){
+@media only screen and (min-width: 1000px) {
     .nav-center{
         height:100px;
         width:100%;
@@ -568,7 +570,7 @@
     margin: auto;
     }
     nav img{
-        height:90px;
+        height:100px;
        display: inline;
        margin-left:100px;
     
@@ -576,9 +578,9 @@
     ul li > a{
         display: inline;
         letter-spacing: 2px;
-        line-height: 75px;
-        font-size: 200%;
-        margin-left: 35px;
+        line-height: 55px;
+        font-size: 130%;
+        margin-left: 15px;
         margin-top: 20px;
         cursor: pointer;
         color: var(--color-olive);
@@ -588,21 +590,26 @@
        
         margin:20px;
         height:50px;
-        margin-left: 900px;
+        margin-left: 400px;
     
     }
     main h1{
-        margin-top: -350px;
+        margin-top: 150px;
+        font-size: 450%;
        
     }
     main button{
         display: block;
-        height: 40px;
-        width: 90px;
+        height: 60px;
+        width: 250px;
         background-color: var(--color-olive);
         color:var(--color-light-olive);
         font-weight: bolder;
-        margin-top: 10px;
+        margin-top: 60px;
+    }
+    main button:hover{
+        background-color: var(--color-light-olive);
+        color:var(--color-olive);
     }
     .sec-main p{
         margin-top: 10px;
@@ -616,7 +623,7 @@
       flex-direction: column;
         border: 1px solid var(--color-light-olive);
         height:200px;
-        margin-left:60px;
+        margin-left:80px;
         margin-top:40px;
         box-shadow: 3px 3px 3px var(--color-light-olive);
         width:25%;
@@ -646,18 +653,18 @@
         display: none;
     }
     .sec-storee{
-        height:300px;
+        height:400px;
         width:100%;
         display: flex;
         flex-direction: row;
-        display: block;
+       
     }
     .sec-mainn{
         display: none;
     }
     .sec-mainn-one{
         width:50%;
-        height:300px;
+        height:400px;
         background-color:var(--color-light-olive) ;
         color:var(--color-olive);
         text-align: center;
@@ -665,26 +672,29 @@
        }
     .img-store{
         width:50%;
-        height:300px;
+        height:400px;
     }
     .img-store img{
         width:100%;
-        height:300px;
+        height:400px;
     }
- 
+   .story{
+       background-color: var(--color-olive);
+       color:var(--color-light-olive);
+   }
        .sec-mainn-one h2{
-        margin-top: 80px;
+        margin-top: 50px;
        }
        .sec-mainn-one p{
         margin:50px;
        }
-       .questions{
+    .questions{
         text-align: center;
         display: flex;
         flex-direction: column;
         background-color: #EEE8E4;
         width: 100%;
-       height: 650px;
+       height: 700px;
     }
     .title{
         font-family: 'Great Vibes', cursive;
@@ -702,9 +712,9 @@
         margin-top: 50px;
            box-shadow: 2px 2px 5px grey;
            border-radius: 10px;;
-           height:100px;
+           height:120px;
            width:60%;
-           margin-left: 150px;
+           margin-left: 30px;
        }
        footer{
         text-align: center;
@@ -720,5 +730,40 @@
         text-decoration: overline;
         margin-top: 50px;
      }
+     .info input{
+        margin-left: 0px;
+     }
  
+}
+@media only screen and (min-width: 1500px) {
+    ul{
+       
+        margin:20px;
+        height:50px;
+        margin-left: 1150px;
+    
+    }
+    ul li > a{
+        display: inline;
+        letter-spacing: 2px;
+        line-height: 55px;
+        font-size: larger;
+        margin-left: 40px;
+        margin-top: 20px;
+        cursor: pointer;
+        color: var(--color-olive);
+        font-weight: bolder;
+    }
+    .sec-block img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        height:40px;
+        width:40px;
+        margin-left: 225px;
+        
+    }
+
+
 }

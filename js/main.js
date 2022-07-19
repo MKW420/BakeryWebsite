@@ -20,8 +20,7 @@ questions.forEach(function (question){
    // console.log(btn);
    btn.addEventListener('click', function(){
     section.addEventListener('click', function(e){
-        section.style.height = "250px";
-       
+      
          
     })
     questions.forEach(function(item){
@@ -30,6 +29,7 @@ questions.forEach(function (question){
            if(item !== question){
             item.classList.remove('show-text')
            }
+          
     })
  
     question.classList.toggle('show-text')
