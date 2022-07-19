@@ -1,5 +1,10 @@
-# BakeryWebsite
-# Media screen for phone
+# Bakery Website 
+This is a front-end projct for a bakery website.
+
+## How its Made:
+**Tech Used:** HTML , CSS , Vanilla javascript.
+
+
 ![xtrab](https://user-images.githubusercontent.com/61581315/179797797-e65a9b18-461a-4f8a-a7a1-0696299f6430.PNG)
 
 
