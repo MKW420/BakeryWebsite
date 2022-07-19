@@ -17,4 +17,5 @@ This is a front-end projct for a bakery website.
 ![extrab5](https://user-images.githubusercontent.com/61581315/179799913-6fd2ebb0-a51b-40f5-b96e-2a316f8b16bc.PNG)
 ![image](https://user-images.githubusercontent.com/61581315/179800191-51a8fd77-5333-483e-a076-9ba434af1d0b.png)
 ![image](https://user-images.githubusercontent.com/61581315/179801053-997326a3-a284-4d55-a686-cda545a6c943.png)
+![image](https://user-images.githubusercontent.com/61581315/179801496-1c297a47-8c80-4d4c-9d34-fb4f6e5928c3.png)
 
