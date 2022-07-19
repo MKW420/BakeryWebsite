@@ -4,7 +4,7 @@ This is a front-end projct for a bakery website.
 ## Programming Languages used:
 **Tech Used:** HTML , CSS , Vanilla javascript.
 
-##Media screens for the Phone 
+## Media screens for the Phone 
 
 ![xtrab](https://user-images.githubusercontent.com/61581315/179797797-e65a9b18-461a-4f8a-a7a1-0696299f6430.PNG)
 
@@ -20,3 +20,7 @@ This is a front-end projct for a bakery website.
 
 
 ![xtra5](https://user-images.githubusercontent.com/61581315/179798144-5790a698-ed40-48bf-920a-9022b20c557a.PNG)
+
+## Mdeia screens for laptop screen:
+
+![extrab5](https://user-images.githubusercontent.com/61581315/179799913-6fd2ebb0-a51b-40f5-b96e-2a316f8b16bc.PNG)
